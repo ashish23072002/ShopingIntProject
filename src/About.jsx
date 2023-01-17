@@ -13,7 +13,7 @@ const data={
 
 const About = () => {
   return (
-    <div className=''>
+    <div >
 
 
      <HeroSection  {...data}/>
