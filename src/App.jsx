@@ -11,8 +11,8 @@ import Profile from './Profile';
 function App() {
   return (
    <div>
-    <Routes>
     <Nav/>
+    <Routes>
       <Route  path="/" element={<Home/>}/>
       <Route  path="/about" element={<About/>}/>
       <Route   path="/profile" element={ <Profile/>}/>
