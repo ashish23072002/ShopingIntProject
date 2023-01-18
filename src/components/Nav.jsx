@@ -5,11 +5,11 @@ import {
 } from "react-router-dom";
 
 const Nav = () => {
-  let Links = [
-    { name: "HOME", link: "/" },
-    { name: "ABOUT", link: "/about" },
-    { name: "PROFILE", link: "/profile" },
-  ];
+  // let Links = [
+  //   { name: "HOME", link: "/" },
+  //   { name: "ABOUT", link: "/about" },
+  //   { name: "PROFILE", link: "/profile" },
+  // ];
   let [open, setOpen] = useState(false);
   return (
     <div className='shadow-md w-full sticky top-0 left-0 ' >
@@ -27,15 +27,24 @@ const Nav = () => {
         </div>
 
         <ul className={` md:flex md:items-center md:pb-0 pb-16 absolute md:static bg-gray-900  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ' : 'top-[-490px]'}`}>
-          {
+          {/* {
             Links.map((link) => (
               <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7 '>
-                <Link to={{link}} className='text-white  hover:text-gray-400 duration-500' >{link.name}</Link>
-                {/* <a href={link.link} className='text-white  hover:text-gray-400 duration-500' >{link.name}</a> */}
+                <Link to={link} className='text-white  hover:text-gray-400 duration-500' >{link.name}</Link>
+                <a href={link.link} className='text-white  hover:text-gray-400 duration-500' >{link.name}</a>
               </li>
             ))
-          }
+          } */}
 
+          <Link to="/">
+            <li className='md:ml-8 text-xl md:my-0 my-7 '>HOME</li>
+          </Link>
+          <Link to="/about">
+            <li className='md:ml-8 text-xl md:my-0 my-7 '>ABOUT</li>
+          </Link>
+          <Link to="/profile">
+            <li className='md:ml-8 text-xl md:my-0 my-7 '>PROFILE</li>
+          </Link>
           <Link to="/product">
             <Button>SHOW NOW</Button>
           </Link>
