@@ -5,7 +5,7 @@ import Nav from './components/Nav';
 import Product from './components/Product';
 import Footer from './Footer';
 import Home from './Home';
-import Profile from './Profile';
+import Profile from './components/Profile';
 
 
 function App() {
@@ -13,14 +13,13 @@ function App() {
    <div>
     
     <Nav/>
-    <BrowserRouter basename='/ShoppingInternProject' >
     <Routes>
       <Route  path="/" element={<Home/>}/>
       <Route  path="/about" element={<About/>}/>
       <Route   path="/profile" element={ <Profile/>}/>
       <Route   path="/product" element={ <Product/>}/>
     </Routes>
-    </BrowserRouter>
+
   
     <Footer/>
    </div>

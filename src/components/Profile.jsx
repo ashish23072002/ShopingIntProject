@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroSection from './components/Herosection';
+import HeroSection from './Herosection';
 
 const Profile = () => {
   const data={
