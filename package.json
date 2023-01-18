@@ -2,7 +2,7 @@
   "name": "usingtailwind",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://ashish23072002.github.io/ShoppingInternProject",
+  "homepage": "http://ashish23072002.github.io/ShopingIntProject",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
