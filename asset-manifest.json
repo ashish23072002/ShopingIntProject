@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ShopingIntProject/static/css/main.02ea4289.css",
+    "main.js": "/ShopingIntProject/static/js/main.70028feb.js",
+    "index.html": "/ShopingIntProject/index.html",
+    "main.02ea4289.css.map": "/ShopingIntProject/static/css/main.02ea4289.css.map",
+    "main.70028feb.js.map": "/ShopingIntProject/static/js/main.70028feb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02ea4289.css",
+    "static/js/main.70028feb.js"
+  ]
+}
