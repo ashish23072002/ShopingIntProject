@@ -26,7 +26,7 @@ const Nav = () => {
           <ion-icon name={open ? 'close' : 'menu'}></ion-icon>
         </div>
 
-        <ul className={` md:flex md:items-center md:pb-0 pb-16 absolute md:static bg-gray-900  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ' : 'top-[-490px]'}`}>
+        <ul className={` md:flex md:items-center md:pb-0 pb-16 absolute md:static text-white bg-gray-900  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ' : 'top-[-490px]'}`}>
           {/* {
             Links.map((link) => (
               <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7 '>
@@ -37,13 +37,13 @@ const Nav = () => {
           } */}
 
           <Link to="/">
-            <li className='md:ml-8 text-xl md:my-0 my-7 '></li>
+            <li className='md:ml-8 text-xl md:my-0 my-7 text-white  hover:text-gray-400 duration-500 '>HOME</li>
           </Link>
-          <Link to="/about" className='md:ml-8 text-xl md:my-0 my-7 '>
-            <li className='md:ml-8 text-xl md:my-0 my-7 '></li>
+          <Link to="/about">
+            <li className='md:ml-8 text-xl md:my-0 my-7  text-white  hover:text-gray-400 duration-500'>ABOUT</li>
           </Link>
           <Link to="/profile">
-            <li className='md:ml-8 text-xl md:my-0 my-7 '></li>
+            <li className='md:ml-8 text-xl md:my-0 my-7 text-white  hover:text-gray-400 duration-500 '>PROFILE</li>
           </Link>
           <Link to="/product">
             <Button>SHOW NOW</Button>
