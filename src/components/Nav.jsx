@@ -39,8 +39,8 @@ const Nav = () => {
           <Link to="/">
             <li className='md:ml-8 text-xl md:my-0 my-7 '>HOME</li>
           </Link>
-          <Link to="/about">
-            <li className='md:ml-8 text-xl md:my-0 my-7 '>ABOUT</li>
+          <Link to="/about" className='md:ml-8 text-xl md:my-0 my-7 '>
+            ABOUT
           </Link>
           <Link to="/profile">
             <li className='md:ml-8 text-xl md:my-0 my-7 '>PROFILE</li>
