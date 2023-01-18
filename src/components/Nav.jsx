@@ -5,11 +5,11 @@ import {
 } from "react-router-dom";
 
 const Nav = () => {
-  // let Links = [
-  //   { name: "HOME", link: "/" },
-  //   { name: "ABOUT", link: "/about" },
-  //   { name: "PROFILE", link: "/profile" },
-  // ];
+  let Links = [
+    { name: "HOME", link: "/" },
+    { name: "ABOUT", link: "/about" },
+    { name: "PROFILE", link: "/profile" },
+  ];
   let [open, setOpen] = useState(false);
   return (
     <div className='shadow-md w-full sticky top-0 left-0 ' >
