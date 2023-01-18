@@ -11,7 +11,7 @@ const HeroSection = (props) => {
                     <h1 className="text-6xl text-uppercase">{props.fname} {props.lname}</h1>
                     <p className="text-xl leading-relaxed max-w-lg mt-4 mb-8 opacity-95 text-gray-600">{props.dis}</p>
                     <button className="bg-teal-400 hover:bg-teal-500 duration-300 text-white font-medium  rounded-md py-4 px-3 font-[Poppins]  max-w-fit md:w-auto">
-                       <Link to =" /">{props.abt}</Link>  
+                       <Link to ="/">{props.abt}</Link>  
                     </button>
                     <div className="mt-10">
                         <p className="text-lg">Email - <a href='mailto:ashish23bisht@gmail.com'>ashish23bisht@gmail.com</a></p>

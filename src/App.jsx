@@ -1,4 +1,4 @@
-import { Routes,Route  } from 'react-router-dom';
+import { BrowserRouter ,Routes,Route  } from 'react-router-dom';
 import About from './About';
 import './App.css';
 import Nav from './components/Nav';
@@ -11,8 +11,8 @@ import Profile from './Profile';
 function App() {
   return (
    <div>
-    <Nav/>
     <Routes>
+    <Nav/>
       <Route  path="/" element={<Home/>}/>
       <Route  path="/about" element={<About/>}/>
       <Route   path="/profile" element={ <Profile/>}/>
