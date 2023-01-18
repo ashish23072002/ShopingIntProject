@@ -36,13 +36,13 @@ const Nav = () => {
             ))
           } */}
 
-          <Link to="./">
+          <Link to="/">
             <li className='md:ml-8 text-xl md:my-0 my-7 text-white  hover:text-gray-400 duration-500 '>HOME</li>
           </Link>
-          <Link to="./about">
+          <Link to="/about">
             <li className='md:ml-8 text-xl md:my-0 my-7  text-white  hover:text-gray-400 duration-500'>ABOUT</li>
           </Link>
-          <Link to="./profile">
+          <Link to="/profile">
             <li className='md:ml-8 text-xl md:my-0 my-7 text-white  hover:text-gray-400 duration-500 '>PROFILE</li>
           </Link>
           <Link to="/product">
