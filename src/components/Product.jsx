@@ -1,4 +1,7 @@
 import React from 'react'
+import {
+    Link
+  } from "react-router-dom";
 
 const Product = () => {
     return (
@@ -25,7 +28,7 @@ const Product = () => {
                                 <div class="w-4 h-4 rounded-full bg-black mr-3"></div>
                                 <div class="w-4 h-4 rounded-full bg-red-100 mr-3"></div>
                                 <div class="w-4 h-4 rounded-full bg-blue-900 mr-3 "></div>
-                               
+
                             </div>
                             <div class="flex justify-between">
                                 <div class="flex items-center">
@@ -35,7 +38,10 @@ const Product = () => {
                                 </div>
                             </div>
                         </div>
+                        <Link to="/">
                         <button className='bg-teal-400 text-white w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Add To Cart</button>
+                        </Link>
+                       
                     </div>
                 </div>
             </div>
