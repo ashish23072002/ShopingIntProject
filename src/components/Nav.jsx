@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Button from './Button';
 import {
-  NavLink
+  Link
 } from "react-router-dom";
 
 const Nav = () => {
@@ -30,14 +30,15 @@ const Nav = () => {
           {
             Links.map((link) => (
               <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7 '>
-                <a href={link.link} className='text-white  hover:text-gray-400 duration-500' >{link.name}</a>
+                <Link to="{link.link}" className='text-white  hover:text-gray-400 duration-500' >{link.name}</Link>
+                {/* <a href={link.link} className='text-white  hover:text-gray-400 duration-500' >{link.name}</a> */}
               </li>
             ))
           }
 
-          <NavLink to="/product">
+          <Link to="/product">
             <Button>SHOW NOW</Button>
-          </NavLink>
+          </Link>
         </ul>
       </div>
     </div>
